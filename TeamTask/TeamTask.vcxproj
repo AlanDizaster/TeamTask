@@ -94,11 +94,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DisplayTabOfExpenses.cpp" />
+    <ClCompile Include="DisplayTabOfIncome.cpp" />
+    <ClCompile Include="Income.cpp" />
     <ClCompile Include="TabOfExpenses.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="TabOfIncome.cpp" />
     <ClCompile Include="TeamTask.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

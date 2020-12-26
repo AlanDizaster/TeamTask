@@ -68,5 +68,14 @@
     <ClCompile Include="DisplayTabOfExpenses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Income.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabOfIncome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTabOfIncome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
