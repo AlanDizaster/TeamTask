@@ -79,6 +79,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Access.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="DisplayTabOfClients.h" />
     <ClInclude Include="DisplayTabOfExpenses.h" />
