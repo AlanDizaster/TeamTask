@@ -8,13 +8,13 @@ using namespace std;
 class DisplayTabOfClients  // экран ввода клиентов
 {
 private:
-	DisplayTabOfClients* ptrDisplayTabOfClients; //указатель на список клиентов
+	TabOfClients* ptrTabOfClients; //указатель на список клиентов
 	string addName;     //Фамилия И.О
 	string addRegNum; //Вид одежды
 	string addService; //Услуга
 	string addDate; //Дата обращения
 public:
-	DisplayTabOfClients(DisplayTabOfClients* ptrCL) : ptrDisplayTabOfClients(ptrCL)
+	DisplayTabOfClients(TabOfClients* ptrCL) : ptrTabOfClients(ptrCL)
 	{
 	}
 	void setClient(); //ввод клиента
