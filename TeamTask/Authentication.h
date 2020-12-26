@@ -1,5 +1,5 @@
-#ifndef AUTHENTIFICATION_H   
-#define AUTHENTIFICATION_H 
+#ifndef AUTHENTICATION_H   
+#define AUTHENTICATION_H 
 #include "Profile.h"
 
 class Authentication //экран ввода пользователя
