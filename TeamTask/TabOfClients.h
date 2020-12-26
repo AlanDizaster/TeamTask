@@ -3,13 +3,13 @@
 #include <list> 
 #include "Client.h"
 
-class ClientList //список клиентов
+class TabOfClients //список клиентов
 {
 private:
 	list <Client*> setPtrsClients;   // контейнер список клиентов
 	list <Client*>::iterator iter; //итератор
 
-public:  ~ClientList();
+public:  ~TabOfClients();
 		 void insertClient(Client*); //внесение клиента в таблицу
 		 void display();    //отображение на экране      
 };
