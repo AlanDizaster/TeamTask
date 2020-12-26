@@ -1,5 +1,6 @@
 #include <iostream> 
 #include "stdafx.h" 
+#include "GetFunc.h"
 
 void getaLine(string& inStr) //функция ввода строки
 {

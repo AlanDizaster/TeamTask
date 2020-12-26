@@ -4,7 +4,7 @@
 void Authentication::setUser()   //ввести логин и пароль
 {
 	cout << "¬ведите логин: " << endl;
-	getLine(addLogin);
+	getaLine(addLogin);
 	cout << "¬ведите пароль: " << endl;
 	getaLine(addPassword);
 	rules = ptrProfile->access(addLogin, addPassword);
