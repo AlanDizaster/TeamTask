@@ -34,34 +34,34 @@ void Interface::interact()  //отображение главного меню
 		cout << "\n";
 		cout << "|       Выберите действие          |\n";
 		cout << "|----------------------------------|\n";
-		cout << "| Чтобы ввести данные введите 1    |\n";
-		if (ptrAuthentication->getRules() == 1) cout << "| Чтобы вывести данные введите 2   |\n";  //отображать это меню только если это директор
-		cout << "| Для выхода введите 3             |\n";
+		cout << "| Чтобы ввести данные введите i    |\n";
+		if (ptrAuthentication->getRules() == 1) cout << "| Чтобы вывести данные введите d   |\n";  //отображать это меню только если это директор
+		cout << "| Для выхода введите e             |\n";
 		ch = getaChar();
 		system("cls");
-		if (ch == '1')       // меню ввода данных
+		if (ch == 'i')       // меню ввода данных
 		{
 			cout << "\n";
 			cout << "|          Ввести данные               |\n";
 			cout << "|--------------------------------------|\n";
-			cout << "| Для ввода нового клиента введите 1   |\n";
-			cout << "| Для ввода дохода введите 2           |\n";
-			cout << "| Для ввода дохода введите 3           |\n";
+			cout << "| Для ввода нового клиента введите c   |\n";
+			cout << "| Для ввода дохода введите i           |\n";
+			cout << "| Для ввода расхода введите e          |\n";
 			ch = getaChar();
 			system("cls");
 			switch (ch)
 			{
 
-			case '1': ptrDisplayTabOfClients = new DisplayTabOfClients(ptrTabOfClients);
+			case 'c': ptrDisplayTabOfClients = new DisplayTabOfClients(ptrTabOfClients);
 				ptrDisplayTabOfClients->setClient();
 				delete ptrDisplayTabOfClients;
 				break;
 				break;
-			case '2': ptrDisplayTabOfIncome = new DisplayTabOfIncome(ptrTabOfIncome);
+			case 'i': ptrDisplayTabOfIncome = new DisplayTabOfIncome(ptrTabOfIncome);
 				ptrDisplayTabOfIncome->setIncome();
 				delete ptrDisplayTabOfIncome;
 				break;
-			case '3': ptrDisplayTabOfExpenses = new DisplayTabOfExpenses(ptrTabOfExpenses);
+			case 'e': ptrDisplayTabOfExpenses = new DisplayTabOfExpenses(ptrTabOfExpenses);
 				ptrDisplayTabOfExpenses->setExpense();
 				delete ptrDisplayTabOfExpenses;
 				break;
@@ -69,7 +69,7 @@ void Interface::interact()  //отображение главного меню
 				break;
 			}
 		}
-		else if (ch == '2')       //меню вывода данных
+		else if (ch == 'd')       //меню вывода данных
 		{
 			if (ptrAuthentication->getRules() == 1)  // выводить если директор
 			{
@@ -102,7 +102,7 @@ void Interface::interact()  //отображение главного меню
 			}
 		}
 
-		else if (ch == '3')  //выход из программы
+		else if (ch == 'e')  //выход из программы
 			return;
 		else     cout << "Выбран неверный номер\n";
 	}

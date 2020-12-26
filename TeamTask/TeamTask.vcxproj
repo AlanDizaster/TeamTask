@@ -80,12 +80,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Access.h" />
+    <ClInclude Include="AnnualReport.h" />
+    <ClInclude Include="Authentication.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="DisplayTabOfClients.h" />
     <ClInclude Include="DisplayTabOfExpenses.h" />
     <ClInclude Include="DisplayTabOfIncome.h" />
     <ClInclude Include="Expenses.h" />
+    <ClInclude Include="GetFunc.h" />
     <ClInclude Include="Income.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="Profile.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TabOfClients.h" />
     <ClInclude Include="TabOfExpenses.h" />
@@ -93,9 +98,17 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AnnualReport.cpp" />
+    <ClCompile Include="Authentication.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="DisplayTabOfClients.cpp" />
     <ClCompile Include="DisplayTabOfExpenses.cpp" />
     <ClCompile Include="DisplayTabOfIncome.cpp" />
+    <ClCompile Include="GetFunc.cpp" />
     <ClCompile Include="Income.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Profile.cpp" />
+    <ClCompile Include="TabOfClients.cpp" />
     <ClCompile Include="TabOfExpenses.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

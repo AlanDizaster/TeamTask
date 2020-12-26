@@ -15,10 +15,10 @@ void DisplayTabOfExpenses::setExpense()  //экран ввода расходов
 	cout << "¬ведите получател€: ";
 	getaLine(recipient);
 	cout << "¬ведите сумму платежа: ";
-	getaLine(payment);
-	cout << "¬ведите дату платежа: ";
-	cin >> datePay;
+	cin >> payment;
 	cin.ignore(80, '\n');
+	cout << "¬ведите дату платежа: ";
+	getaLine(datePay);
 	Expenses* ptrExpense = new Expenses(expenditure, recipient, payment, datePay);
 	ptrExpenseList->insertExp(ptrExpense);
 }

@@ -5,8 +5,8 @@
 
 class AnnualReport // Класс годового отчета
 {
-private:  TabOfIncome* ptrTOI;  //указатель на таблицу доходов       
-		  TabOfExpanses* ptrTOE;  //указатель на таблицу расходов 
+private:  TabOfIncome* ptrPL;  //указатель на таблицу доходов       
+		  TabOfExpanses* ptrER;  //указатель на таблицу расходов 
 		  float expenses; //сумма расходоы
 		  float income; //сумма доходов 
 

@@ -9,10 +9,10 @@ void DisplayTabOfClients::setClient()  //ввод клиентов
 	cout << "Регистрационый номер автомобиля: ";
 	getaLine(addRegNum);
 	cout << endl;
-	cout << "Оказываемая услуга: " << endl;
+	cout << "Оказываемая услуга: ";
 	getline(cin, addService);
 	cout << endl;
-	cout << "Дата обращения (дд.мм.гггг): " << endl;
+	cout << "Дата обращения (дд.мм.гггг): ";
 	getaLine(addDate);
 	cout << endl;
 	Client* ptrClient = new Client(addName, addRegNum, addService, addDate);
