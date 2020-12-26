@@ -27,19 +27,33 @@
     <ClInclude Include="Client.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
+    <ClInclude Include="DisplayTabOfClients.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabOfClients.h">
+=======
     <ClInclude Include="TabOfClients.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DisplayTabOfClients.h">
+>>>>>>> 30f127214c5676302beb896cb22d5e5796dc53d7
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Income.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
+    <ClInclude Include="TabOfIncome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayTabOfIncome.h">
+=======
     <ClInclude Include="DisplayTabOfIncome.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TabOfIncome.h">
+>>>>>>> 30f127214c5676302beb896cb22d5e5796dc53d7
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Access.h">
