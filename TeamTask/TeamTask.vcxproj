@@ -81,14 +81,19 @@
   <ItemGroup>
     <ClInclude Include="Client.h" />
     <ClInclude Include="DisplayTabOfClients.h" />
+    <ClInclude Include="DisplayTabOfExpenses.h" />
     <ClInclude Include="DisplayTabOfIncome.h" />
+    <ClInclude Include="Expenses.h" />
     <ClInclude Include="Income.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TabOfClients.h" />
+    <ClInclude Include="TabOfExpenses.h" />
     <ClInclude Include="TabOfIncome.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DisplayTabOfExpenses.cpp" />
+    <ClCompile Include="TabOfExpenses.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
