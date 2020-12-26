@@ -17,6 +17,6 @@ public:
 	DisplayTabOfIncome(TabOfIncome* ptrPL) : ptrTabOfIncome(ptrPL)
 	{
 	}
-	void setProfit();  //ввод доходов
+	void setIncome();  //ввод доходов
 };
 #endif

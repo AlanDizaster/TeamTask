@@ -1,7 +1,7 @@
 #include "stdafx.h" 
 #include "DisplayTabOfIncome.h" 
 
-void DisplayTabOfIncome::setProfit()
+void DisplayTabOfIncome::setIncome()
 {
 	cout << "Введите ФИО клиента: " << endl;
 	getaLine(addName);

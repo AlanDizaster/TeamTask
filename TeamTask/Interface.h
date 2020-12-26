@@ -16,11 +16,11 @@ private:
 	//указатели на таблицы и экраны ввода
 	Authentication* ptrAuthentication;
 	Profile* ptrUser;
-	DisplayTabOfClients* ptrCDisplayTabOfClients;
-	TabOfClients* ptrClientInputScreen;
+	DisplayTabOfClients* ptrDisplayTabOfClients;
+	TabOfClients* ptrTabOfClients;
 	TabOfIncome* ptrTabOfIncome;
 	DisplayTabOfIncome* ptrDisplayTabOfIncome;
-	TabOfExpanses* ptrExpenseList;
+	TabOfExpanses* ptrTabOfExpenses;
 	DisplayTabOfExpenses* ptrDisplayTabOfExpenses;
 	AnnualReport* ptrAnnualReport;
 	char ch;
