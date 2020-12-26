@@ -3,8 +3,8 @@
 #include "TabOfClients.h"
 #include "TabOfIncome.h"
 #include <string> 
-
 using namespace std;
+
 class DisplayTabOfIncome //класс экрана ввода доходов
 {
 private:
