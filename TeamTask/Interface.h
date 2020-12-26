@@ -5,7 +5,7 @@
 #include "Profile.h"
 #include "Authenyification.h"
 #include "TabOfExpenses.h"
-//#include "DisplayTabOfExpenses.h"
+#include "DisplayTabOfExpenses.h"
 #include "TabOfIncome.h"
 #include "DisplayTabOfIncome.h"
 #include "AnnualReport.h"
