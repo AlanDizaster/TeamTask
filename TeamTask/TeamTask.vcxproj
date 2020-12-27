@@ -79,7 +79,6 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Access.h" />
     <ClInclude Include="AnnualReport.h" />
     <ClInclude Include="Authentication.h" />
     <ClInclude Include="Client.h" />

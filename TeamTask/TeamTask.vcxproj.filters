@@ -51,9 +51,6 @@
     <ClInclude Include="DisplayTabOfExpenses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Access.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Authentication.h">
       <Filter>Header Files</Filter>
     </ClInclude>

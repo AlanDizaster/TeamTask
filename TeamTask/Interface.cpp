@@ -76,22 +76,22 @@ void Interface::interact()  //отображение главного меню
 				cout << "\n";
 				cout << "|     Вывести данные            |\n";
 				cout << "|-------------------------------|\n";
-				cout << "| Для вывода таблицы клиентов 1 |\n";
-				cout << "| Для вывода таблицы доходов 2  |\n";
-				cout << "| Для вывода таблицы расходов 3 |\n";
-				cout << "| Для вывода таблицы отчета 4   |\n";
+				cout << "| Для вывода таблицы клиентов c |\n";
+				cout << "| Для вывода таблицы доходов i  |\n";
+				cout << "| Для вывода таблицы расходов e |\n";
+				cout << "| Для вывода таблицы отчета a   |\n";
 
 				ch = getaChar();
 				system("cls");
 				switch (ch)
 				{
-				case '1': ptrTabOfClients->display();
+				case 'c': ptrTabOfClients->display();
 					break;
-				case '2':ptrTabOfIncome->display();
+				case 'i':ptrTabOfIncome->display();
 					break;
-				case '3': ptrTabOfExpenses->display();
+				case 'e': ptrTabOfExpenses->display();
 					break;
-				case '4':ptrAnnualReport = new AnnualReport(ptrTabOfIncome, ptrTabOfExpenses);
+				case 'a':ptrAnnualReport = new AnnualReport(ptrTabOfIncome, ptrTabOfExpenses);
 					ptrAnnualReport->display();
 					delete ptrAnnualReport;
 					break;
